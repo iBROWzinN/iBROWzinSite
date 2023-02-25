@@ -1,0 +1,7 @@
+
+body {
+  background-image: url("./Fundo.png");
+  background-repeat: no-repeat;
+  opacity: 0.;
+  background-size: cover;
+}

@@ -1,0 +1,91 @@
+
+  ul.ibrow{
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  .titulo{
+    position: absolute;
+    top: 5%;
+    margin: 1px;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    left: 2%;
+  }
+  .imgmenu{
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  nav ul li {
+    position: relative;
+    float: left;
+  }
+  
+  nav ul li a {
+    display: block;
+    text-decoration: none;
+    color: #fff;
+  }
+  
+  nav ul li:hover > ul {
+    display: block;
+  }
+  
+  nav ul ul {
+    display: none;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    background-color: blue ;
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+
+  nav ul ul li {
+    float: none;
+    width: 100%;
+  }
+  
+  nav ul ul li a {
+    padding: 8px 16px;
+  }
+  
+  nav ul ul ul {
+    top: 0;
+    left: 100%;
+  }
+
+input[type="text"] {
+  border-radius: 20px;
+  border: none;
+  padding: 10px;
+  width: 200px;
+  box-sizing: border-box;
+  background-color: white;
+  height: 40px;
+  width: 450px;
+  top: 15%;
+}
+
+input[type="text"]:focus {
+  outline: none;
+}
+
+
+.imgmenu{
+  left: 90%;
+  top: 10%;
+}
+form{
+  position: absolute;
+  left: 15%;
+  top: 3%;
+}
+header {
+  background-color: black; /* altera a cor de fundo para cinza escuro */
+  height: 100px; /* altera a altura do cabeçalho para 100 pixels */
+  border-bottom: 2px solid #333;
+
+} 
